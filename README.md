@@ -1,7 +1,7 @@
-# 📚 Dokumentatsiya Platformasi – Backend API
+# 📚 It Docs Platform – Backend API
 
 ## 🧾 Loyihaning maqsadi
-Ushbu platforma foydalanuvchilarga IT yo‘nalishidagi hujjatlar bilan tanishish, ularni o‘qish va izoh qoldirish imkonini beradi. Barcha dokumentatsiyalar faqat **admin** tomonidan yuklanadi.
+Ushbu Loyha foydalanuvchilarga IT yonalishidagi hujjatlar bilan tanishish, ularni oqish va kament qoldirish imkonini beradi. Barcha dokumentatsiyalar faqat **admin** tomonidan yuklanadi.
 
 ---
 
@@ -12,10 +12,10 @@ Ushbu platforma foydalanuvchilarga IT yo‘nalishidagi hujjatlar bilan tanishish
 - Login orqali tizimga kirishi kerak
 - Profilidagi ma'lumotlarni (ism, email, parol) yangilay oladi
 - Tizimga kirgach:
-  - Barcha dokumentatsiyalar royxatini ko‘radi
+  - Barcha dokumentatsiyalar royxatini koradi
   - Har bir dokumentatsiyani ochib, oqiydi
   - Kommentariya yozadi
-  - Boshqa foydalanuvchilarning kommentariyalarini ko‘radi
+  - Boshqa foydalanuvchilarning kommentariyalarini koradi
 
 ### 🛠️ Admin
 - Faqat bitta admin akkaunti mavjud
@@ -23,7 +23,7 @@ Ushbu platforma foydalanuvchilarga IT yo‘nalishidagi hujjatlar bilan tanishish
 - Quyidagi amallarni bajara oladi:
   - Yangi dokumentatsiya qoshadi
   - Dokumentatsiyani tahrir qiladi
-  - Dokumentatsiyani o‘chiradi
+  - Dokumentatsiyani ochiradi
 
 ---
 
@@ -34,7 +34,7 @@ Ushbu platforma foydalanuvchilarga IT yo‘nalishidagi hujjatlar bilan tanishish
 
 ---
 
-## 🗃️ Ma’lumotlar bazasi modellari
+## 🗃️ Databse modellari
 
 ### 1. Users
 | Field      | Type     | Description                  |
@@ -53,7 +53,7 @@ Ushbu platforma foydalanuvchilarga IT yo‘nalishidagi hujjatlar bilan tanishish
 |--------------|----------|------------------------------------------|
 | id           | Integer  | Unikal dokumentatsiya ID                 |
 | title        | String   | Hujjat sarlavhasi                        |
-| category     | String   | Yo‘nalishi (Backend, Frontend, DevOps)   |
+| category     | String   | Yonalishi (Backend, Frontend, DevOps)   |
 | content      | Text     | Dokumentatsiya matni                     |
 | createdBy    | Integer  | Yaratgan admin foydalanuvchi IDsi        |
 | createdAt    | Date     | Yaratilgan sana                          |
@@ -83,5 +83,5 @@ Ushbu platforma foydalanuvchilarga IT yo‘nalishidagi hujjatlar bilan tanishish
 - Dokumentatsiyani PDF formatda yuklab olish
 - Like / dislike tizimi
 - Kommentariyani tahrirlash / ochirish
-- Fikrlar soni bo‘yicha sort qilish
+- Fikrlar soni boyicha sort qilish
 
